@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: rgb(24, 24, 24);
+}
+label, input, button, table, select, option{
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+}
+
+.Block{
+    display: flex;
+    justify-content: center;
+}
+.Block>div{
+    margin: 20px;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px 1px rgb(72, 90, 255);
+    border-radius: 5px;
+}
+.Block>div>form>div{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.Block>div>form>div>input{
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 2px 1px rgb(72, 90, 255);
+    border: none;
+    color: white;
+}
+.Block>div>form>div>select{
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 2px 1px rgb(72, 90, 255);
+    border: none;
+    color: white;
+}
+.Block>div>form>div>select>option{
+    background-color: rgb(24, 24, 24);
+}
+.Block>div>form button{
+    width: 200px;
+    margin: 3px 3px;
+    background-color: rgb(0, 26, 255);
+    box-shadow: 0px 0px 2px 1px rgb(72, 90, 255);
+    border: none;
+    color: white;
+}
+.Block>div>form button:hover{
+    background-color: rgb(72, 90, 255);
+}
+.Block>div>h2{
+    text-align: center;
+}
